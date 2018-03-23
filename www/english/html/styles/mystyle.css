@@ -42,3 +42,6 @@ div.indexContainer {
   font-style: serif;
   color: white;
 }
+@-ms-viewport{
+  width: device-width;
+}
