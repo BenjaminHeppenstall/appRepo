@@ -11,7 +11,7 @@ div.programmed {
   font-family: "courier";
 } 
 #programmedContent {
-  background-color: white;
+  background-color: #DC143C;
   border-style: double;
   border-color: black;
   font-style: serif;
