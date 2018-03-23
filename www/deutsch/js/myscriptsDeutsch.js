@@ -1,5 +1,5 @@
 function everything() {
-    var answerInput = prompt("please enter q", "8");
+    var answerInput = prompt("bitte q eingeben", "8");
 
     if (answerInput != null) {
         var a = parseInt(answerInput, 10);                               
@@ -37,10 +37,10 @@ function everything() {
                 var element2 = document.getElementById("div1");                  
                 element2.appendChild(createAllNum);                              
 
-                document.getElementById("max").innerHTML = "<br>" + "biggest possible area for " 
+                document.getElementById("max").innerHTML = "<br>" + "Größtmöglicher Flächeninhalt bei " 
                 + a + "cm:" + "<br>" + "<b>" + "<br>" + 
                 Math.round(maxNummern * 1000) / 1000 + " cm²" + "</b>" + "<br>" + "<br>";
-                document.getElementById("all").innerHTML = "<br>" + "other possible area values:" 
+                document.getElementById("all").innerHTML = "<br>" + "Andere mögliche Flächeninhalte:" 
                 + "<br>" + "<br>" + forAll;
 
                 var elem = document.getElementById('qEingeben');               
@@ -48,7 +48,7 @@ function everything() {
                 var button = document.createElement("button");                      
                 button.id = "cancelButton";
                 button.class = "button"                                                               
-                button.innerHTML = "<b>try again</b>";                                     
+                button.innerHTML = "<b>erneut versuchen</b>";                                     
                 var parentEl = document.getElementById("fillIn");                
                 parentEl.appendChild(button);                                   
                 button.addEventListener ("click", function() {                  
@@ -71,7 +71,7 @@ function everything() {
                 invalidInput.appendChild(invalidInputContent);                   
                 var element3 = document.getElementById("attentionDiv");                  
                 element3.appendChild(invalidInput); 
-                document.getElementById("demo1").innerHTML = "please enter <i>vaild</i> number" 
+                document.getElementById("demo1").innerHTML = "Bitte eine <i>gültige</i> Nummer eingeben" 
 
                 var elem1 = document.getElementById('qEingeben');               
                 elem1.parentNode.removeChild(elem1); 
@@ -79,7 +79,7 @@ function everything() {
                 var button = document.createElement("button");                      
                 button.id = "cancelButton";
                 button.class = "button"                                                               
-                button.innerHTML = "<b>try again</b>"; 
+                button.innerHTML = "<b>erneut versuchen</b>"; 
 
                 var parentEl = document.getElementById("fillIn");                
                 parentEl.appendChild(button); 

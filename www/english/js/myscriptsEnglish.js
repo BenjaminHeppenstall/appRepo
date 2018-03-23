@@ -71,7 +71,7 @@
                 invalidInput.appendChild(invalidInputContent);                   
                 var element3 = document.getElementById("attentionDiv");                  
                 element3.appendChild(invalidInput); 
-                document.getElementById("demo1").innerHTML = "please enter <i>vaild</i> number" 
+                document.getElementById("demo1").innerHTML = "please enter <i>valid</i> number" 
 
                 var elem1 = document.getElementById('qEingeben');               
                 elem1.parentNode.removeChild(elem1); 
