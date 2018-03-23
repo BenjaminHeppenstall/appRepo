@@ -1,4 +1,201 @@
 h1 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  font-family: "courier";
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 50px;
+  display: inline-block;
+}
+.header {
+  background-color: #008080;
+  margin-top: 0px;
+  border-style: solid;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+button.backBtn {
+  display: inline-block;
+  float: left;
+  background-color: transparent;
+  border-color: transparent;
+  margin-top: 1.3em;
+}
+.button {
+  background-color: #2E8B57;
+  border: inset; 
+  border-color: #2E8B57;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
+}
+h4 {
+  text-align: center;
+  background-color: #2F4F4F;
+  border-style: double;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
+}
+p.demo1 {
+  background-color: #00664d;
+  border-style: solid;
+  border-width: medium;
+  text-align: center;
+  font-size: 13px;
+  font-family: "courier";
+  box-shadow: 0em 0em 0em black;
+}
+p.text {
+  background-color: #00664d;
+  border-style: solid;
+  border-width: medium;
+  text-align: center;
+  font-size: 13px;
+  font-family: "courier";
+  box-shadow: 0em 0em 0em black;
+}
+p {
+  background-color: #00664d;
+  border-style: solid;
+  border-width: medium;
+  text-align: center;
+  font-size: 13px;
+  font-family: "courier";
+}
+#div3 {
+  text-align: center;
+  background-color: #ff0000;
+  border-style: solid;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: "courier";
+}
+#demo1 {
+  text-align: center;
+  border-style: inset;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #778899;
+  font-family: "courier";
+  font-size: 28px;
+}
+.wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "courier";
+}
+#qEingeben {
+  text-align: center;
+  margin-bottom: 20px;
+  border-style: inset;
+  border-width: 3px;
+  font-size: 15px;
+  font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
+}
+#fillIn {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "courier";
+}
+#cancelButton {
+  background-color: #2E8B57;
+  border: inset;
+  border-color: #2E8B57;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
+}
+#max {
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  background-color: #20B2AA;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+  font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
+}
+#all {
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-bottom-width: 1px;
+  border-top-width: 0px;
+  background-color: #20B2AA;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0px;
+  font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
+}
+#attentionDiv {
+  text-align: center;
+  border-style: double;
+  border-width: 3px;
+  background-color: #20B2AA; 
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 30px;
+  font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
+}
+#attentionImage {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  width: 30%;
+  height: 30%;
+}
+#codeDiv {
+  text-align: center;
+}
+#codePageButton {
+  background-color: #B8860B;
+  color: black;
+  border-style: inset;
+  border-color: #B8860B;
+  color: black;
+  padding: 3px 10px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin:4px 2px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
+}
+#iconImg {
+  padding-bottom: 1px;
+  padding-top: 1px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+h1 {
   background-color: #008080;
   margin-top: 0px;
   border-style: solid;
@@ -22,6 +219,7 @@ h1 {
   margin: 4px 2px;
   cursor: pointer;
   font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
 }
 h4 {
   text-align: center;
@@ -30,6 +228,25 @@ h4 {
   margin-left: 50px;
   margin-right: 50px;
   font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
+}
+p.demo1 {
+  background-color: #00664d;
+  border-style: solid;
+  border-width: medium;
+  text-align: center;
+  font-size: 13px;
+  font-family: "courier";
+  box-shadow: 0em 0em 0em black;
+}
+p.text {
+  background-color: #00664d;
+  border-style: solid;
+  border-width: medium;
+  text-align: center;
+  font-size: 13px;
+  font-family: "courier";
+  box-shadow: 0em 0em 0em black;
 }
 p {
   background-color: #00664d;
@@ -50,7 +267,6 @@ p {
 #demo1 {
   text-align: center;
   border-style: inset;
-
   margin-left: 15%;
   margin-right: 15%;
   background-color: #778899;
@@ -69,6 +285,7 @@ p {
   border-width: 3px;
   font-size: 15px;
   font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
 }
 #fillIn {
   text-align: center;
@@ -88,6 +305,7 @@ p {
   margin: 4px 2px;
   cursor: pointer;
   font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
 }
 #max {
   text-align: center;
@@ -101,6 +319,7 @@ p {
   margin-right: 50px;
   margin-bottom: 0px;
   font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
 }
 #all {
   text-align: center;
@@ -113,6 +332,7 @@ p {
   margin-right: 50px;
   margin-top: 0px;
   font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
 }
 #attentionDiv {
   text-align: center;
@@ -123,6 +343,7 @@ p {
   margin-right: 50px;
   font-size: 30px;
   font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
 }
 #attentionImage {
   margin-top: 20px;
@@ -145,12 +366,18 @@ p {
   display: inline-block;
   font-size: 12px;
   margin:4px 2px;
+  margin-top: 30px;
   cursor: pointer;
   font-family: "courier";
+  box-shadow: 0.667em 0.667em 0.333em black;
 }
 #iconImg {
   padding-bottom: 1px;
   padding-top: 1px;
   margin-bottom: 0px;
   margin-top: 5px;
+}
+button.back {
+  background-color: transparent;
+  margin-left: 5px;
 }

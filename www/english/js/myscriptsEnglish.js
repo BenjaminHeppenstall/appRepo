@@ -93,5 +93,3 @@
         isItNumber(a);
     }
 }
-
-

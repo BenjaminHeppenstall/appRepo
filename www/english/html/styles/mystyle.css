@@ -26,10 +26,10 @@ div.programmed {
 
 div.index {
   width: 100%;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   background-color: white;
   margin-bottom: 30px;
+  box-shadow: 0.667em 0.667em 0.333em black;
 }
 
 div.indexContainer {
@@ -42,6 +42,21 @@ div.indexContainer {
   font-style: serif;
   color: white;
 }
+.header {
+  background-color: #008080;
+  margin-top: 0px;
+  border-style: solid;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
 @-ms-viewport{
   width: device-width;
+}
+button.backBtn {
+  display: inline-block;
+  float: left;
+  background-color: transparent;
+  border-color: transparent;
+  margin-top: 1.3em;
 }

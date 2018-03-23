@@ -11,7 +11,7 @@ div.programmed {
   font-family: "courier";
 } 
 #programmedContent {
-  background-color:  #FAEBD7;
+  background-color: #FAEBD7;
   border-style: double;
   border-color: black;
   font-style: serif;
@@ -26,10 +26,10 @@ div.programmed {
 
 div.index {
   width: 100%;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   background-color: white;
   margin-bottom: 30px;
+  box-shadow: 0.667em 0.667em 0.333em black;
 }
 
 div.indexContainer {
@@ -44,4 +44,11 @@ div.indexContainer {
 }
 @-ms-viewport{
   width: device-width;
+}
+button.backBtn {
+  display: inline-block;
+  float: left;
+  background-color: transparent;
+  border-color: transparent;
+  margin-top: 1.3em;
 }
