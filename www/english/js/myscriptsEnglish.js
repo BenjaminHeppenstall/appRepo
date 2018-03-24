@@ -1,27 +1,31 @@
- function everything() {
+function everything() {
     var answerInput = prompt("please enter q", "8");
-
-    if (answerInput != null) {
-        var a = parseInt(answerInput, 10);                               
-        var forAll = "";                                                  
-        var forMax = "";                                                
+  
+    if (answerInput != null) {             
+        var a = parseInt(answerInput, 10);         
+        var forAll = "";                                    
+        var forMax = "";                                      
         var nummern = [];                                             
+                                                          
+        function isItNumber(h)  {                      
+            if (Number.isInteger(h)) {                    
+                function f(q,x) {                        
+                    var y = (30 - (-(q/10) * x + q)) * (40 - x); 
+                    return y;                            
+                } 
 
-        function isItNumber(h) {
-            if (Number.isInteger(h)) { 
-                function f(q,x) {
-                    var y = (30 - (-(q/10) * x + q)) * (40 - x);  
-                    return y; 
-                }                                                     
-                
+                for(var i = 0; i < 1000; i++) {                          
+                    var b = 0 + i * 0.1;                  
+                    if ((b + f(a,b)) >= 0) {
+                        forAll += Math.round((b + f(a,b)) * 1000) / 1000 + "<br>";
+                    }     
 
-                for(var i = 0; i < 1000; i++) {                            
-                    var b = 0 + i * 0.1; 
-                    forAll += Math.round((b + f(a,b)) * 1000) / 1000 + "<br>"; 
                     forMax = b + f(a,b);                                       
                     nummern.push(forMax);                                               
-                    var maxNummern = Math.max.apply(null, nummern) 
-                }           
+                    var maxNummern = Math.max.apply(null, nummern);  
+                }  
+              
+             
 
                 var createMaxNum = document.createElement("p");   
                 createMaxNum.id = "max";                                         
