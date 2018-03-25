@@ -20,7 +20,7 @@ function everything() {
                         forAll += Math.round((b + f(a,b)) * 1000) / 1000 + "<br>";
                     }     
 
-                    forMax = b + f(a,b);                                       
+                    forMax = f(a,b);                                       
                     nummern.push(forMax);                                               
                     var maxNummern = Math.max.apply(null, nummern);  
                 }  
@@ -42,7 +42,7 @@ function everything() {
                 element2.appendChild(createAllNum);                              
 
                 document.getElementById("max").innerHTML = "<br>" + "biggest possible area for " 
-                + a + "cm:" + "<br>" + "<b>" + "<br>" + 
+                + a + "cm:" + "<br>" + "<b>" + "<br>" +
                 Math.round(maxNummern * 1000) / 1000 + " cm²" + "</b>" + "<br>" + "<br>";
                 document.getElementById("all").innerHTML = "<br>" + "other possible area values:" 
                 + "<br>" + "<br>" + forAll;

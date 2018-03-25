@@ -20,7 +20,7 @@ function everything() {
                         forAll += Math.round((b + f(a,b)) * 1000) / 1000 + "<br>";
                     }     
 
-                    forMax = b + f(a,b);                                       
+                    forMax = f(a,b);                                       
                     nummern.push(forMax);                                               
                     var maxNummern = Math.max.apply(null, nummern);  
                 }        
